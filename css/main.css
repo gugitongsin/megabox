@@ -1,1 +1,11 @@
 @charset "UTF-8";
+
+.ad_top{position:relative; background-color: #4f79a9;}
+.ad_top.close{display:none;}
+.ad_top > .inner > a > img{display: block; height:100%;}
+.ad_top > .btn_close{display:block; width:15px; height:15px; background:#585858; position:absolute; bottom:0; right:0;}
+.ad_top > .btn_close:before{content: ''; position:absolute; left:7px; display:block; width:2px; height:15px; transform-origin: center; transform : rotate(-45deg); background: #fff;}
+.ad_top > .btn_close:after{content: ''; position:absolute; left:7px; display:block; width:2px; height:15px; transform-origin: center; transform : rotate(45deg); background: #fff;}
+
+main > .section{height: 100vh;}
+main > .box_office{background-color: rgb(26, 24, 31);}
