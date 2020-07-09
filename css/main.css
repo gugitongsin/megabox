@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.ad_top{position:relative; background-color: #4f79a9;}
+.ad_top{display:block; position:relative; background-color: #4f79a9;}
 .ad_top.close{display:none;}
 .ad_top > .inner > a > img{display: block; height:100%;}
 .ad_top > .btn_close{display:block; width:15px; height:15px; background:#585858; position:absolute; bottom:0; right:0;}

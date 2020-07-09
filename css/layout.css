@@ -32,7 +32,6 @@ header > .inner > .gnb > ul > div.box_right > li:nth-child(3) > ul{left: 105px;}
 header > .inner > .gnb > ul > div > li > ul > li+li{margin-left: 30px;}
 header > .inner > .gnb > ul > div > li > ul > li > a:hover{text-decoration: underline;}
 
-header > .inner > .open_layer{}
 header > .inner > .open_layer > div{top: 50px;}
 header > .inner > .open_layer > div > a{float: left;}
 header > .inner > .open_layer > div > a+a {margin-left : 18px;}

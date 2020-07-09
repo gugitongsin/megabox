@@ -1,4 +1,7 @@
 $(function(){
+    $('html, body').animate({
+        scrollTop : 0
+    }, 1)
 
     $(document).on('click', 'a[href="#"]', function(e){
         e.preventDefault();
