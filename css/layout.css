@@ -17,7 +17,7 @@ header > .inner > .gnb > ul > .box_left{left:160px;}
 header > .inner > .gnb > ul > .box_right{right:160px;}
 header > .inner > .gnb > ul > div > li{float:left; box-sizing: border-box; color: #fff; font-size: 18px; vertical-align: top;}
 header > .inner > .gnb > ul > div > li+li{margin-left: 50px; }
-header > .inner > .gnb > ul > div > li > a{position:relative; text-align: center; padding-bottom: 22px;}
+header > .inner > .gnb > ul > div > li > a{position:relative; text-align: center; padding-bottom: 19px;}
 header > .inner > .gnb > ul > div > li > a:after{content:'' ; display:block; width:0; height:3px; background:#fff; position:absolute; bottom: 0; left: 0;}
 header > .inner > .gnb > ul > div > li > a.on:after{width:100%;}
 header > .inner > .gnb > ul > div > li > ul{display:none; position: absolute; top: 40px; width:350px; height:50px; font-size: 15px; padding: 5px 0; box-sizing: border-box; z-index: 2;}

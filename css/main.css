@@ -12,14 +12,21 @@ main > .section{height: 100vh;}
 main > .box_office{background-color: rgb(26, 24, 31); color:#fff; padding-top: 80px; box-sizing: border-box;}
 main > .box_office button{color: #fff;}
 main > .box_office > .inner > .box_btn_tab{position:relative; margin-bottom: 30px;}
-main > .box_office > .inner > .box_btn_tab > button{display:block; margin: 0 auto; padding:5px 0; border-bottom: 2px solid #585858; font-size: 15px;}
+main > .box_office > .inner > .box_btn_tab > button{display:block; margin: 0 auto; padding:3px 0; border-bottom: 2px solid #585858; font-size: 15px;}
 main > .box_office > .inner > .box_btn_tab > a{position:absolute; bottom:0; right:0; font-size: 15px; color:#999;}
 main > .box_office > .inner > ol{}
 main > .box_office > .inner > ol:after{content: ''; display:block; clear:both;}
 main > .box_office > .inner > ol > li{float:left;}
 main > .box_office > .inner > ol > li+li{margin-left: 40px;}
-main > .box_office > .inner > ol > li > .box_img{width:245px; height: 352px; overflow:hidden; border-radius: 10px;}
+main > .box_office > .inner > ol > li > .box_img{position: relative; width:245px; height: 352px; overflow:hidden; border-radius: 7px;}
+main > .box_office > .inner > ol > li > .box_img > a > .rank{position:absolute; top: 0; left: 0; padding:10px 0 0 15px; font-size: 30px; font-family: 'Roboto', sans-serif; text-shadow: 1px 1px 3px #222; font-style: italic;}
 main > .box_office > .inner > ol > li > .box_img > a > img{width:100%; height:100%;}
+main > .box_office > .inner > ol > li > .box_img > a > .cover{ position:absolute; top:0; left:0; width:100%; height:100%; padding:25px; box-sizing: border-box; font-size: 15px; line-height: 1.5; background-color: rgba(0,0,0, .7); opacity: 0; transition: opacity 0.3s;}
+main > .box_office > .inner > ol > li > .box_img > a:hover > .cover{opacity: 1;}
+main > .box_office > .inner > ol > li > .box_img > a > .cover > p{margin-bottom: 20px;}
+main > .box_office > .inner > ol > li > .box_img > a > .cover > .box_audience_eval{position:absolute; bottom:20px; left:50%; transform: translateX(-50%); width:calc(100% - 40px); padding:15px; box-sizing: border-box; border-top: 1px solid rgba(255,255,255, 0.3); }
+main > .box_office > .inner > ol > li > .box_img > a > .cover > .box_audience_eval > p{text-align: center;}
+main > .box_office > .inner > ol > li > .box_img > a > .cover > .box_audience_eval > p > em{margin-left: 20px; font-size: 30px; color: #037b94; font-weight: bold;}
 main > .box_office > .inner > ol > li > .box_btn{}
 main > .box_office > .inner > ol > li > .box_btn > button{}
 main > .box_office > .inner > ol > li > .box_btn > a{}

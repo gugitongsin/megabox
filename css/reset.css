@@ -54,7 +54,8 @@ a{
 }
 
 body{
-    letter-spacing: -1px;
+	letter-spacing: -1px;
+	font-family: 'Noto Sans KR';
 }
 
 button{
